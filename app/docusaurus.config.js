@@ -1,9 +1,11 @@
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 import { themes as prismThemes } from 'prism-react-renderer';
 
 const config = {
     title: 'Learning',
-    tagline: 'Trying to document and explain all the things I learn',
-    favicon: 'img/favicon.ico',
+    tagline: 'Trying to document and explain all the things I learned',
+    favicon: 'img/learning-1.svg',
     url: 'https://www.robertovicario.com',
     baseUrl: '/Learning/',
     organizationName: 'robertovicario',
@@ -14,6 +16,14 @@ const config = {
         defaultLocale: 'en',
         locales: ['en'],
     },
+    stylesheets: [
+        {
+            href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+            type: 'text/css',
+            integrity: 'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+            crossorigin: 'anonymous',
+        },
+    ],
     presets: [
         [
             'classic',
@@ -21,6 +31,8 @@ const config = {
                 docs: {
                     sidebarPath: './sidebars.js',
                     editUrl: 'https://github.com/robertovicario/Learning',
+                    remarkPlugins: [remarkMath],
+                    rehypePlugins: [rehypeKatex]
                 },
                 blog: {
                     showReadingTime: true,
@@ -31,7 +43,7 @@ const config = {
                     editUrl: 'https://github.com/robertovicario/Learning',
                     onInlineTags: 'warn',
                     onInlineAuthors: 'warn',
-                    onUntruncatedBlogPosts: 'warn',
+                    onUntruncatedBlogPosts: 'warn'
                 },
                 theme: {
                     customCss: './src/css/custom.css',
@@ -40,12 +52,11 @@ const config = {
         ],
     ],
     themeConfig: ({
-        image: 'img/docusaurus-social-card.jpg',
         navbar: {
             title: 'Learning',
             logo: {
                 alt: 'Logo',
-                src: 'img/robertovicario-1.svg',
+                src: 'img/learning-1.svg',
             },
             items: [
                 {
@@ -53,6 +64,12 @@ const config = {
                     label: 'Notes',
                     position: 'left',
                     activeBaseRegex: '/docs/',
+                },
+                {
+                    to: '/blog/',
+                    label: 'Playgrounds',
+                    position: 'left',
+                    activeBaseRegex: '/blog/',
                 },
                 {
                     href: 'https://github.com/robertovicario/Learning',
@@ -68,7 +85,7 @@ const config = {
         prism: {
             theme: prismThemes.github,
             darkTheme: prismThemes.github,
-        },
+        }
     }),
 };
 

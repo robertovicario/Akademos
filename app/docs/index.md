@@ -20,4 +20,4 @@ If you have suggestions, corrections, or additional materials to share, please c
 
 ---
 
-Author: Roberto Vicario
+Author: [@robertovicario](https://github.com/robertovicario)

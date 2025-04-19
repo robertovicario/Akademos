@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.robertovicario.com/Learning/blog</id>
+    <title>Learning Blog</title>
+    <updated>2025-04-19T16:21:20.518Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://www.robertovicario.com/Learning/blog"/>
+    <subtitle>Learning Blog</subtitle>
+    <icon>https://www.robertovicario.com/Learning/img/learning-1.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[Playgrounds]]></title>
+        <id>https://www.robertovicario.com/Learning/blog/index</id>
+        <link href="https://www.robertovicario.com/Learning/blog/index"/>
+        <updated>2025-04-19T16:21:20.518Z</updated>
+        <summary type="html"><![CDATA[...]]></summary>
+        <content type="html"><![CDATA[<p>...</p>]]></content>
+    </entry>
+</feed>

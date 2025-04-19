@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
     {
         title: 'Computer Science',
-        Svg: require('@site/static/img/illustrations/home/2.svg').default,
+        Svg: require('@site/static/img/illustrations/home/1.svg').default,
         description: (
             <>
                 Computer Science is the backbone of technology. I enjoy exploring algorithms and system design.
@@ -14,7 +14,7 @@ const FeatureList = [
     },
     {
         title: 'Artificial Intelligence',
-        Svg: require('@site/static/img/illustrations/home/3.svg').default,
+        Svg: require('@site/static/img/illustrations/home/2.svg').default,
         description: (
             <>
                 Artificial Intelligence is transforming industries. I specialize in creating innovative AI solutions.
@@ -23,7 +23,7 @@ const FeatureList = [
     },
     {
         title: 'Ethical Hacking',
-        Svg: require('@site/static/img/illustrations/home/1.svg').default,
+        Svg: require('@site/static/img/illustrations/home/3.svg').default,
         description: (
             <>
                 Understanding systems deeply and creatively solving problems to secure and improve technology.

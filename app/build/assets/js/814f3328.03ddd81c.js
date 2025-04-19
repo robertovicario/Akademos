@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp=self.webpackChunkapp||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Playgrounds","permalink":"/Learning/blog/index","unlisted":false,"date":"2025-04-19T16:21:20.518Z"}]}')}}]);
