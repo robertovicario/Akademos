@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.robertovicario.com/Learning/blog</id>
     <title>Learning Blog</title>
-    <updated>2025-04-19T16:21:20.518Z</updated>
+    <updated>2025-04-19T18:33:41.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.robertovicario.com/Learning/blog"/>
     <subtitle>Learning Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Playgrounds]]></title>
         <id>https://www.robertovicario.com/Learning/blog/index</id>
         <link href="https://www.robertovicario.com/Learning/blog/index"/>
-        <updated>2025-04-19T16:21:20.518Z</updated>
+        <updated>2025-04-19T18:33:41.000Z</updated>
         <summary type="html"><![CDATA[...]]></summary>
         <content type="html"><![CDATA[<p>...</p>]]></content>
     </entry>

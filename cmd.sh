@@ -1,44 +1,28 @@
 start() {
     printer "🚀 Starting the app"
-
-    # -------------------------
-
     cd app/
     npm install
     npm run start
     cd ..
-
-    # -------------------------
-
     handler
 }
 
 build() {
     printer "🔨 Building the app"
-
-    # -------------------------
-
     cd app/
     npm run build
     cd ..
-
-    # -------------------------
-
     handler
 }
 
 deploy() {
-    printer "🚀 Deploying to GitHub Pages"
-
-    # -------------------------
-
     build
+    handler
+
+    printer "🚀 Deploying to GitHub Pages"
     git add .
     git commit -m "Deployed to GitHub Pages"
     git push
-
-    # -------------------------
-
     handler
 }
 

@@ -4,7 +4,7 @@
         <title>Learning Blog</title>
         <link>https://www.robertovicario.com/Learning/blog</link>
         <description>Learning Blog</description>
-        <lastBuildDate>Sat, 19 Apr 2025 16:21:20 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 19 Apr 2025 18:33:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Playgrounds]]></title>
             <link>https://www.robertovicario.com/Learning/blog/index</link>
             <guid>https://www.robertovicario.com/Learning/blog/index</guid>
-            <pubDate>Sat, 19 Apr 2025 16:21:20 GMT</pubDate>
+            <pubDate>Sat, 19 Apr 2025 18:33:41 GMT</pubDate>
             <description><![CDATA[...]]></description>
             <content:encoded><![CDATA[<p>...</p>]]></content:encoded>
         </item>
