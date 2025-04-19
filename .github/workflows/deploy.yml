@@ -27,13 +27,11 @@ jobs:
               run: |
                   cd app
                   npm install
-                  cd ..
 
             - name: Build project
               run: |
                   cd app
                   npm run build
-                  cd ..
 
             - name: Deploy to GitHub Pages
               uses: actions/upload-pages-artifact@v3
