@@ -1,4 +1,6 @@
 .DS_Store
+.docusaurus/
+node_modules/
 
 # -------------------------
 
@@ -123,7 +125,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/
+# build/
 develop-eggs/
 dist/
 downloads/
