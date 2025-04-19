@@ -2,7 +2,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 const config = {
     title: 'Learning',
-    tagline: 'Triying to document and explain all the things I learn',
+    tagline: 'Trying to document and explain all the things I learn',
     favicon: 'img/favicon.ico',
     url: 'https://www.robertovicario.com',
     baseUrl: '/Learning/',
