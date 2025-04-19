@@ -4,6 +4,7 @@ start() {
     # -------------------------
 
     cd app/
+    npm install
     npm run start
     cd ..
 
@@ -18,23 +19,7 @@ build() {
     # -------------------------
 
     cd app/
-    npm run install
-    npm run start
-    cd ..
-
-    # -------------------------
-
-    handler
-}
-
-clear() {
-    printer "🧹 Clearing the app"
-
-    # -------------------------
-
-    cd app/
-    rm -rf node_modules
-    npm run clear
+    npm run build
     cd ..
 
     # -------------------------
@@ -47,9 +32,7 @@ deploy() {
 
     # -------------------------
 
-    cd app/
-    npm run build
-    cd ..
+    build
     git add .
     git commit -m "Deployed to GitHub Pages"
     git push
@@ -81,14 +64,11 @@ case "$1" in
     build)
         build
         ;;
-    clear)
-        clear
-        ;;
     deploy)
         deploy
         ;;
     *)
-        echo "Usage: $0 {start|build|clear|deploy}"
+        echo "Usage: $0 {start|build|deploy}"
         exit 1
         ;;
 esac
