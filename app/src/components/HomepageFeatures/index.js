@@ -22,11 +22,11 @@ const FeatureList = [
         ),
     },
     {
-        title: 'Ethical Hacking',
+        title: 'Cybersecurity',
         Svg: require('@site/static/img/illustrations/home/3.svg').default,
         description: (
             <>
-                Understanding systems deeply and creatively solving problems to secure and improve technology.
+                Understanding systems deeply and creatively solving problems to secure technology.
             </>
         ),
     },

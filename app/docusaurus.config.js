@@ -30,7 +30,7 @@ const config = {
             ({
                 docs: {
                     sidebarPath: './sidebars.js',
-                    editUrl: 'https://github.com/robertovicario/Learning',
+                    editUrl: 'https://github.com/robertovicario/Learning/tree/main/app/',
                     remarkPlugins: [remarkMath],
                     rehypePlugins: [rehypeKatex]
                 },
@@ -40,7 +40,7 @@ const config = {
                         type: ['rss', 'atom'],
                         xslt: true,
                     },
-                    editUrl: 'https://github.com/robertovicario/Learning',
+                    editUrl: 'https://github.com/robertovicario/Learning/tree/main/app/',
                     onInlineTags: 'warn',
                     onInlineAuthors: 'warn',
                     onUntruncatedBlogPosts: 'warn'
@@ -79,12 +79,12 @@ const config = {
             ],
         },
         footer: {
-            style: 'dark',
+            style: 'light',
             copyright: `Copyright (c) ${new Date().getFullYear()} Roberto Vicario. All rights reserved.`,
         },
         prism: {
-            theme: prismThemes.github,
-            darkTheme: prismThemes.github,
+            theme: prismThemes.dracula,
+            darkTheme: prismThemes.dracula,
         }
     }),
 };
