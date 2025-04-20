@@ -4,7 +4,7 @@
         <title>Learning Blog</title>
         <link>https://www.robertovicario.com/Learning/blog</link>
         <description>Learning Blog</description>
-        <lastBuildDate>Sun, 20 Apr 2025 09:31:12 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 20 Apr 2025 11:12:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Introduction to Blockchain]]></title>
             <link>https://www.robertovicario.com/Learning/blog/blockchain-1</link>
             <guid>https://www.robertovicario.com/Learning/blog/blockchain-1</guid>
-            <pubDate>Sun, 20 Apr 2025 09:31:12 GMT</pubDate>
+            <pubDate>Sun, 20 Apr 2025 11:12:41 GMT</pubDate>
             <description><![CDATA[A simple implementation of a blockchain in Python]]></description>
             <content:encoded><![CDATA[<hr>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="-lecture">📖 Lecture<a href="https://www.robertovicario.com/Learning/blog/blockchain-1#-lecture" class="hash-link" aria-label="Direct link to 📖 Lecture" title="Direct link to 📖 Lecture">​</a></h3>

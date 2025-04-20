@@ -61,7 +61,7 @@ const config = {
             items: [
                 {
                     to: '/docs/',
-                    label: 'Notes',
+                    label: 'Lectures',
                     position: 'left',
                     activeBaseRegex: '/docs/',
                 },

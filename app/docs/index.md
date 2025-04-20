@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Notes
+# Lectures
 
 Here you’ll find a curated collection of materials, summaries, diagrams, and explanations covering various university courses. The goal is to offer a practical and easy-to-navigate study resource, helpful for both reviewing and deepening your understanding of the topics.
 

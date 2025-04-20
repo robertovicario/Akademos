@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp=self.webpackChunkapp||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Introduction to Blockchain","permalink":"/Learning/blog/blockchain-1","unlisted":false,"date":"2025-04-20T09:31:12.532Z"}]}')}}]);
