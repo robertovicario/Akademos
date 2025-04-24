@@ -1,6 +1,8 @@
+#!/bin/bash
+
 start() {
     printer "🚀 Starting the app"
-    cd app/
+    cd app
     npm install
     npm run start
     cd ..
@@ -9,7 +11,7 @@ start() {
 
 build() {
     printer "🔨 Building the app"
-    cd app/
+    cd app
     npm run build
     cd ..
     handler
@@ -34,14 +36,14 @@ printer() {
 
 handler() {
     if [ $? -eq 0 ]; then
-        printer "✅ Process completed successfully."
+        printer "✅ Process completed successfully"
     else
-        printer "❌ An error occurred during the process."
+        printer "❌ An error occurred during the process"
         exit 1
     fi
 }
 
-case "$1" in
+case $1 in
     start)
         start
         ;;
@@ -53,6 +55,5 @@ case "$1" in
         ;;
     *)
         echo "Usage: $0 {start|build|deploy}"
-        exit 1
         ;;
 esac
