@@ -18,12 +18,13 @@ build() {
 }
 
 deploy() {
-    build
-    handler
-
-    printer "🚀 Deploying to GitHub Pages"
+    printer "🚀 Deploying the app"
+    cd app
+    npm install
+    npm run build
+    cd ..
     git add .
-    git commit -m "Deployed to GitHub Pages"
+    git commit -m "Deployed the app"
     git push
     handler
 }
