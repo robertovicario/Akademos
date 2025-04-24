@@ -3,6 +3,14 @@
 start() {
     printer "🚀 Starting the app"
     cd app
+    npm run start
+    cd ..
+    handler
+}
+
+setup() {
+    printer "🔨 Setting up the app"
+    cd app
     npm install
     npm run start
     cd ..
@@ -10,8 +18,9 @@ start() {
 }
 
 build() {
-    printer "🔨 Building the app"
+    printer "🔨 Building up the app"
     cd app
+    npm install
     npm run build
     cd ..
     handler
@@ -48,6 +57,9 @@ case $1 in
     start)
         start
         ;;
+    setup)
+        setup
+        ;;
     build)
         build
         ;;
@@ -55,6 +67,6 @@ case $1 in
         deploy
         ;;
     *)
-        echo "Usage: $0 {start|build|deploy}"
+        echo "Usage: $0 {start|setup|build|deploy}"
         ;;
 esac
