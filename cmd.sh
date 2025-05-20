@@ -18,7 +18,7 @@ setup() {
 }
 
 build() {
-    printer "🔨 Building up the app"
+    printer "🔨 Building the app"
     cd app
     npm install
     npm run build
@@ -27,14 +27,23 @@ build() {
 }
 
 deploy() {
-    printer "🚀 Deploying the app"
+    printer "📦 Deploying the app"
+
+    # -------------------------
+
     cd app
     npm install
     npm run build
     cd ..
+
+    # -------------------------
+
     git add .
     git commit -m "Deployed the app"
     git push
+
+    # -------------------------
+
     handler
 }
 

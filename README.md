@@ -1,4 +1,4 @@
-# Learning
+# Akademos
 
 ## Overview
 
@@ -14,7 +14,7 @@
 
 | <img src="./docs/cover.png" alt="UI" width="384"> |
 | :-: |
-| **Home - Learning** |
+| **Home - Akademos** |
 
 ## Instructions
 
@@ -32,7 +32,7 @@ If you haven't set up the project yet, you can do so by running:
 bash cmd.sh setup
 ```
 
-Once the setup process is complete, the project will be accessible at `localhost:3000/Learning`.
+Once the setup process is complete, the project will be accessible at `localhost:3000/Akademos`.
 
 > [!WARNING]
 >

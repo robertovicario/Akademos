@@ -32,7 +32,7 @@ export default function Home() {
     return (
         <Layout
             title="Home"
-            description="Learn STEM topics with Lectures and playgrounds.">
+            description="Learn STEM with synthetic lectures and interactive playgrounds">
             <HomepageHeader />
             <main>
                 <HomepageFeatures />

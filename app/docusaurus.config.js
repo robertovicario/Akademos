@@ -3,13 +3,13 @@ import rehypeKatex from 'rehype-katex';
 import { themes as prismThemes } from 'prism-react-renderer';
 
 const config = {
-    title: 'Learning',
-    tagline: 'Trying to document and explain all the things I learned',
-    favicon: 'img/learning-1.svg',
+    title: 'Akademos',
+    tagline: 'Learn STEM with synthetic lectures and interactive playgrounds.',
+    favicon: 'img/akademos-1.svg',
     url: 'https://www.robertovicario.com',
-    baseUrl: '/Learning/',
+    baseUrl: '/Akademos/',
     organizationName: 'robertovicario',
-    projectName: 'Learning',
+    projectName: 'Akademos',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     i18n: {
@@ -30,7 +30,7 @@ const config = {
             ({
                 docs: {
                     sidebarPath: './sidebars.js',
-                    editUrl: 'https://github.com/robertovicario/Learning/tree/main/app/',
+                    editUrl: 'https://github.com/robertovicario/Akademos/tree/main/app/',
                     remarkPlugins: [remarkMath],
                     rehypePlugins: [rehypeKatex]
                 },
@@ -40,7 +40,7 @@ const config = {
                         type: ['rss', 'atom'],
                         xslt: true,
                     },
-                    editUrl: 'https://github.com/robertovicario/Learning/tree/main/app/',
+                    editUrl: 'https://github.com/robertovicario/Akademos/tree/main/app/',
                     onInlineTags: 'warn',
                     onInlineAuthors: 'warn',
                     onUntruncatedBlogPosts: 'warn'
@@ -53,10 +53,10 @@ const config = {
     ],
     themeConfig: ({
         navbar: {
-            title: 'Learning',
+            title: 'Akademos',
             logo: {
                 alt: 'Logo',
-                src: 'img/learning-1.svg',
+                src: 'img/akademos-1.svg',
             },
             items: [
                 {
@@ -66,13 +66,7 @@ const config = {
                     activeBaseRegex: '/docs/',
                 },
                 {
-                    to: '/blog/',
-                    label: 'Playgrounds',
-                    position: 'left',
-                    activeBaseRegex: '/blog/',
-                },
-                {
-                    href: 'https://github.com/robertovicario/Learning',
+                    href: 'https://github.com/robertovicario/Akademos',
                     label: 'GitHub',
                     position: 'right',
                 },
@@ -80,7 +74,7 @@ const config = {
         },
         footer: {
             style: 'light',
-            copyright: `Copyright (c) ${new Date().getFullYear()} Roberto Vicario. All rights reserved.`,
+            copyright: `Copyright &copy; ${new Date().getFullYear()} Roberto Vicario. All rights reserved.`,
         },
         prism: {
             theme: prismThemes.dracula,
