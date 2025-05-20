@@ -5,7 +5,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
     title: 'Akademos',
     tagline: 'Learn STEM with synthetic lectures and interactive playgrounds.',
-    favicon: 'img/akademos-1.svg',
+    favicon: 'static/img/akademos-1.svg',
     url: 'https://www.robertovicario.com',
     baseUrl: '/Akademos/',
     organizationName: 'robertovicario',
@@ -30,20 +30,9 @@ const config = {
             ({
                 docs: {
                     sidebarPath: './sidebars.js',
-                    editUrl: 'https://github.com/robertovicario/Akademos/tree/main/app/',
+                    editUrl: 'https://github.com/robertovicario/Akademos/tree/main/app/docs/',
                     remarkPlugins: [remarkMath],
                     rehypePlugins: [rehypeKatex]
-                },
-                blog: {
-                    showReadingTime: true,
-                    feedOptions: {
-                        type: ['rss', 'atom'],
-                        xslt: true,
-                    },
-                    editUrl: 'https://github.com/robertovicario/Akademos/tree/main/app/',
-                    onInlineTags: 'warn',
-                    onInlineAuthors: 'warn',
-                    onUntruncatedBlogPosts: 'warn'
                 },
                 theme: {
                     customCss: './src/css/custom.css',
@@ -60,10 +49,10 @@ const config = {
             },
             items: [
                 {
-                    to: '/docs/',
+                    to: 'docs/',
                     label: 'Lectures',
                     position: 'left',
-                    activeBaseRegex: '/docs/',
+                    activeBaseRegex: 'docs/',
                 },
                 {
                     href: 'https://github.com/robertovicario/Akademos',
@@ -73,7 +62,7 @@ const config = {
             ],
         },
         footer: {
-            style: 'light',
+            style: 'dark',
             copyright: `Copyright &copy; ${new Date().getFullYear()} Roberto Vicario. All rights reserved.`,
         },
         prism: {
