@@ -1,22 +1,22 @@
 :root {
 	--ifm-color-primary: #1098F7 !important;
-	--ifm-color-primary-dark: #d83d2a !important;
-	--ifm-color-primary-darker: #c03221 !important;
-	--ifm-color-primary-darkest: #962b1e !important;
-	--ifm-color-primary-light: #f58274 !important;
-	--ifm-color-primary-lighter: #fdd0cb !important;
-	--ifm-color-primary-lightest: #fef3f2 !important;
+	--ifm-color-primary-dark: #1182E4 !important;
+	--ifm-color-primary-darker: #1568B8 !important;
+	--ifm-color-primary-darkest: #175991 !important;
+	--ifm-color-primary-light: #56D3FF !important;
+	--ifm-color-primary-lighter: #BBEEFF !important;
+	--ifm-color-primary-lightest: #eefbff !important;
 	--ifm-code-font-size: 95% !important;
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1) !important;
 }
 
 [data-theme="dark"] {
 	--ifm-color-primary: #1098F7 !important;
-	--ifm-color-primary-dark: #d83d2a !important;
-	--ifm-color-primary-darker: #c03221 !important;
-	--ifm-color-primary-darkest: #962b1e !important;
-	--ifm-color-primary-light: #f58274 !important;
-	--ifm-color-primary-lighter: #fdd0cb !important;
-	--ifm-color-primary-lightest: #fef3f2 !important;
+	--ifm-color-primary-dark: #1182E4 !important;
+	--ifm-color-primary-darker: #1568B8 !important;
+	--ifm-color-primary-darkest: #175991 !important;
+	--ifm-color-primary-light: #56D3FF !important;
+	--ifm-color-primary-lighter: #BBEEFF !important;
+	--ifm-color-primary-lightest: #eefbff !important;
 	--docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1) !important;
 }
