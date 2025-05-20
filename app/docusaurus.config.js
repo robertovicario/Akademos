@@ -30,7 +30,7 @@ const config = {
             ({
                 docs: {
                     sidebarPath: './sidebars.js',
-                    editUrl: 'https://github.com/robertovicario/Akademos/tree/main/app/docs/',
+                    editUrl: 'https://github.com/robertovicario/Akademos/tree/main/app/',
                     remarkPlugins: [remarkMath],
                     rehypePlugins: [rehypeKatex]
                 },
