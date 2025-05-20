@@ -5,7 +5,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
     title: 'Akademos',
     tagline: 'Learn STEM with synthetic lectures and interactive playgrounds.',
-    favicon: 'static/img/akademos-1.svg',
+    favicon: 'img/akademos-1.svg',
     url: 'https://www.robertovicario.com',
     baseUrl: '/Akademos/',
     organizationName: 'robertovicario',
@@ -62,7 +62,7 @@ const config = {
             ],
         },
         footer: {
-            style: 'dark',
+            style: 'light',
             copyright: `Copyright &copy; ${new Date().getFullYear()} Roberto Vicario. All rights reserved.`,
         },
         prism: {
