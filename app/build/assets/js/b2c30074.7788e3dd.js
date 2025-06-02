@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp=self.webpackChunkapp||[]).push([[8],{4386:e=>{e.exports=JSON.parse('{"tag":{"label":"cheatsheets","permalink":"/Akademos/docs/tags/cheatsheets","allTagsPath":"/Akademos/docs/tags","count":1,"items":[{"id":"index","title":"Lectures","description":"","permalink":"/Akademos/docs/"}],"unlisted":false}}')}}]);

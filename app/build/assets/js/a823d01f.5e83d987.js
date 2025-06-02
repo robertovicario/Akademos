@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp=self.webpackChunkapp||[]).push([[260],{5007:e=>{e.exports=JSON.parse('{"tag":{"label":"english","permalink":"/Akademos/docs/tags/english","allTagsPath":"/Akademos/docs/tags","count":1,"items":[{"id":"academic_writing/1","title":"Cheatsheet","description":"","permalink":"/Akademos/docs/academic_writing/1"}],"unlisted":false}}')}}]);
