@@ -1,3 +1,6 @@
+| <img src="docs/akademos.svg" width="128"> |
+| - |
+
 # Akademos
 
 ## Overview
